@@ -50,7 +50,7 @@ class PostsController extends Controller
     public function show($id)
     {
         //
-//        return "show is working $id";
+        //return "show is working $id";
     }
 
     /**
@@ -62,17 +62,17 @@ class PostsController extends Controller
     public function edit($id)
     {
         //
-        return "edit is working!! $id";
+        return "$id is edited!!";
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, int $id)
     {
         //
         return "update is working!!! $id";
@@ -81,12 +81,23 @@ class PostsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(int $id)
     {
         //
         return "destryo is working $id";
+    }
+    public function contact()
+    {
+        $people = ['Devpph', 'James', 'Peter', 'Maria',];
+        return view('contact',compact('people'));
+    }
+
+    public function show_post($id, $name, $password)
+    {
+        //return view('post')->with('id',$id);
+        return view('post', compact('id','name','password'));
     }
 }

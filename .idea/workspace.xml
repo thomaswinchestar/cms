@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60142810-c36e-4f1f-b45c-7e4506bd05b5" name="Default Changelist" comment="" />
+    <list default="true" id="60142810-c36e-4f1f-b45c-7e4506bd05b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/greeting.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,11 +141,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -144,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1600342181742</updated>
       <workItem from="1600342182854" duration="6241000" />
+      <workItem from="1600461338390" duration="335000" />
+      <workItem from="1600722004159" duration="3000" />
+      <workItem from="1600856450545" duration="3917000" />
+      <workItem from="1600887164264" duration="9110000" />
+      <workItem from="1600969184470" duration="59000" />
+      <workItem from="1600969262375" duration="1270000" />
+      <workItem from="1601039600251" duration="3000" />
+      <workItem from="1601186009337" duration="16403000" />
     </task>
     <servers />
   </component>
@@ -167,9 +195,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1311" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600342774115" />
-    <state x="59" y="0" key="SettingsEditor" timestamp="1600349550790">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1604" y="449" key="NewPhpFileDialog" timestamp="1600887974771">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1604" y="449" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600887974771" />
+    <state x="111" y="0" key="SettingsEditor" timestamp="1601201066001">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="59" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600349550790" />
+    <state x="111" y="0" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601201066001" />
+    <state x="689" y="-2" width="1177" height="1976" key="search.everywhere.popup" timestamp="1601205238718">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="689" y="-2" width="1177" height="1976" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1601205238718" />
   </component>
 </project>
