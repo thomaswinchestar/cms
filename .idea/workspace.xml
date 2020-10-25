@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60142810-c36e-4f1f-b45c-7e4506bd05b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/greeting.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_204408_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_204408_create_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,9 +140,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/TZTOS/myanmarshippingwoocommerce-master" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -171,7 +168,21 @@
       <workItem from="1600969184470" duration="59000" />
       <workItem from="1600969262375" duration="1270000" />
       <workItem from="1601039600251" duration="3000" />
-      <workItem from="1601186009337" duration="16403000" />
+      <workItem from="1601186009337" duration="16453000" />
+      <workItem from="1601296320126" duration="29000" />
+      <workItem from="1601358325809" duration="666000" />
+      <workItem from="1601359060949" duration="261000" />
+      <workItem from="1601359348914" duration="677000" />
+      <workItem from="1601375168810" duration="5345000" />
+      <workItem from="1601457097778" duration="14000" />
+      <workItem from="1601507223020" duration="6000" />
+      <workItem from="1603226988396" duration="1274000" />
+      <workItem from="1603229287781" duration="7000" />
+      <workItem from="1603230311458" duration="109000" />
+      <workItem from="1603409763336" duration="5000" />
+      <workItem from="1603594472385" duration="686000" />
+      <workItem from="1603638724236" duration="744000" />
+      <workItem from="1603642034585" duration="2000" />
     </task>
     <servers />
   </component>
@@ -179,6 +190,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="496" y="242" key="EditFileWatcherDialog" timestamp="1601359118201">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="496" y="242" key="EditFileWatcherDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601359118201" />
+    <state x="901" y="275" key="FileChooserDialogImpl" timestamp="1603638997157">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="901" y="275" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603638997157" />
     <state width="1311" height="163" key="GridCell.Tab.0.bottom" timestamp="1600342774115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -199,14 +218,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1604" y="449" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600887974771" />
-    <state x="111" y="0" key="SettingsEditor" timestamp="1601201066001">
+    <state x="111" y="0" key="SettingsEditor" timestamp="1603230358272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="59" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600349550790" />
-    <state x="111" y="0" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601201066001" />
-    <state x="689" y="-2" width="1177" height="1976" key="search.everywhere.popup" timestamp="1601205238718">
+    <state x="111" y="0" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1603230358272" />
+    <state x="689" y="0" width="1177" height="1976" key="search.everywhere.popup" timestamp="1603227337565">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="689" y="-2" width="1177" height="1976" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1601205238718" />
+    <state x="689" y="0" width="1177" height="1976" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603227337565" />
   </component>
 </project>
